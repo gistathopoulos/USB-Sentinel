@@ -1,17 +1,27 @@
 {
     "editor.formatOnSave": true,
+
     "editor.codeActionsOnSave": {
-        "source.fixAll.ruff": "explicit",
-        "source.organizeImports.ruff": "explicit"
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
     },
-    "python.analysis.typeCheckingMode": "basic",
-    "python.analysis.autoImportCompletions": true,
-    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "files.autoSave": "afterDelay",
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff"
-    }
+    },
+
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    "editor.minimap.enabled": false,
+
+    "editor.renderWhitespace": "selection",
+
+    "editor.bracketPairColorization.enabled": true
 }
